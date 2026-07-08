@@ -1,0 +1,243 @@
+﻿/* PREDIXION AI - Obsidian Intelligence System - Premium Theme */
+
+/* Typography */
+.markdown-preview-view {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  padding: 28px 44px !important;
+  max-width: 1100px;
+  margin: 0 auto;
+  color: #cbd5e1 !important;
+}
+
+.markdown-preview-view h1 {
+  font-size: 2em !important;
+  font-weight: 800 !important;
+  background: linear-gradient(135deg, #a78bfa 0%, #6366f1 50%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-bottom: 2px solid #7c3aed33;
+  padding-bottom: 14px;
+  margin-bottom: 10px !important;
+  letter-spacing: -0.5px;
+}
+
+.markdown-preview-view h2 {
+  font-size: 0.72em !important;
+  font-weight: 700 !important;
+  color: #a78bfa !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 40px !important;
+  margin-bottom: 14px !important;
+  padding-left: 14px;
+  border-left: 3px solid #7c3aed;
+}
+
+.markdown-preview-view h3 {
+  font-size: 0.82em !important;
+  font-weight: 600 !important;
+  color: #64748b !important;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  margin-top: 28px !important;
+}
+
+.markdown-preview-view p { color: #cbd5e1 !important; }
+
+.markdown-preview-view ul,
+.markdown-preview-view ol { color: #cbd5e1 !important; padding-left: 1.4em; }
+
+.markdown-preview-view li { margin-bottom: 4px; }
+
+.markdown-preview-view code {
+  background: #7c3aed18 !important;
+  color: #c4b5fd !important;
+  border: 1px solid #7c3aed33 !important;
+  border-radius: 5px !important;
+  padding: 1px 7px !important;
+  font-size: 0.88em !important;
+}
+
+.markdown-preview-view blockquote {
+  border-left: 3px solid #7c3aed55 !important;
+  background: #7c3aed0a !important;
+  margin: 16px 0 !important;
+  padding: 10px 18px !important;
+  border-radius: 0 8px 8px 0 !important;
+  color: #94a3b8 !important;
+}
+
+.markdown-preview-view .task-list-item-checkbox {
+  accent-color: #7c3aed;
+  width: 14px;
+  height: 14px;
+}
+
+.markdown-preview-view pre {
+  background: #0f0f1e !important;
+  border: 1px solid #7c3aed22 !important;
+  border-radius: 10px !important;
+  padding: 16px 20px !important;
+}
+
+.markdown-preview-view pre code {
+  background: transparent !important;
+  border: none !important;
+  color: #94a3b8 !important;
+  font-size: 0.85em !important;
+}
+
+.markdown-preview-view hr {
+  border: none !important;
+  height: 1px !important;
+  background: linear-gradient(90deg, transparent, #7c3aed44, transparent) !important;
+  margin: 36px 0 !important;
+}
+
+.markdown-preview-view a {
+  color: #818cf8 !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  transition: color 0.15s ease !important;
+}
+
+.markdown-preview-view a:hover {
+  color: #a78bfa !important;
+  text-decoration: underline !important;
+}
+
+/* Dataview tables */
+.dataview.table-view-table {
+  width: 100% !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  border: 1px solid #7c3aed22 !important;
+  box-shadow: 0 4px 32px rgba(124, 58, 237, 0.12) !important;
+  margin-bottom: 28px !important;
+}
+
+.dataview.table-view-table thead tr {
+  background: linear-gradient(135deg, #7c3aed1a 0%, #4f46e514 100%) !important;
+}
+
+.dataview.table-view-table thead th {
+  color: #a78bfa !important;
+  font-size: 0.7em !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.8px !important;
+  padding: 14px 20px !important;
+  border-bottom: 1px solid #7c3aed33 !important;
+}
+
+.dataview.table-view-table tbody tr {
+  transition: background 0.18s ease, transform 0.18s ease !important;
+}
+
+.dataview.table-view-table tbody tr:hover {
+  background: rgba(124, 58, 237, 0.08) !important;
+  transform: translateX(3px);
+}
+
+.dataview.table-view-table tbody td {
+  padding: 13px 20px !important;
+  border-bottom: 1px solid #ffffff07 !important;
+  font-size: 0.88em !important;
+  color: #e2e8f0 !important;
+}
+
+.dataview.table-view-table tbody tr:last-child td { border-bottom: none !important; }
+
+/* Callout boxes */
+.callout {
+  border-radius: 12px !important;
+  border: none !important;
+  margin: 18px 0 !important;
+  padding: 14px 18px !important;
+}
+
+.callout-title {
+  font-size: 0.8em !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.callout[data-callout="abstract"],
+.callout[data-callout="note"],
+.callout[data-callout="info"] {
+  background: linear-gradient(135deg, #0ea5e918, #7c3aed0e) !important;
+  border-left: 4px solid #0ea5e9 !important;
+}
+
+.callout[data-callout="warning"],
+.callout[data-callout="caution"] {
+  background: linear-gradient(135deg, #f59e0b1a, #ef44441a) !important;
+  border-left: 4px solid #f59e0b !important;
+}
+
+.callout[data-callout="danger"],
+.callout[data-callout="error"] {
+  background: linear-gradient(135deg, #ef44441a, #dc26261a) !important;
+  border-left: 4px solid #ef4444 !important;
+}
+
+.callout[data-callout="success"],
+.callout[data-callout="check"],
+.callout[data-callout="done"] {
+  background: linear-gradient(135deg, #10b9811a, #059f461a) !important;
+  border-left: 4px solid #10b981 !important;
+}
+
+.callout[data-callout="quote"] {
+  background: linear-gradient(135deg, #7c3aed14, #4f46e50e) !important;
+  border-left: 4px solid #7c3aed55 !important;
+  font-style: italic;
+  color: #94a3b8 !important;
+}
+
+/* Tags */
+.tag {
+  background: #7c3aed1e !important;
+  color: #a78bfa !important;
+  border: 1px solid #7c3aed40 !important;
+  border-radius: 20px !important;
+  font-size: 0.72em !important;
+  font-weight: 600 !important;
+  padding: 2px 10px !important;
+}
+
+.tag:hover { background: #7c3aed35 !important; }
+
+/* Frontmatter properties panel */
+.metadata-container {
+  background: #7c3aed0a !important;
+  border: 1px solid #7c3aed22 !important;
+  border-radius: 10px !important;
+  padding: 10px 16px !important;
+  margin-bottom: 24px !important;
+}
+
+.metadata-property-key {
+  color: #7c3aed !important;
+  font-size: 0.78em !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.metadata-property-value {
+  color: #94a3b8 !important;
+  font-size: 0.85em !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #7c3aed44; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #7c3aed88; }
